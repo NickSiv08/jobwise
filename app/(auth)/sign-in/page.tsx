@@ -5,7 +5,9 @@ import React from "react";
 const SignInPage = () => {
   return (
     <div className="h-full flex flex-col items-center justify-center gap-4">
-      <h1 className="text-5xl font-semibold tracking-wider">Welcome to</h1>
+      <h1 className="text-5xl font-semibold tracking-wider hidden lg:block">
+        Welcome to
+      </h1>
       <h1 className="text-5xl font-semibold">
         <span>Job</span>
         <span className="text-primary">Wise</span>

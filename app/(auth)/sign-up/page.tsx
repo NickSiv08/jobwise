@@ -5,7 +5,7 @@ import React from "react";
 const SignUpPage = () => {
   return (
     <div className="h-full flex flex-col items-center justify-center gap-4">
-      <h1 className="text-5xl font-semibold">Welcome to</h1>
+      <h1 className="text-5xl font-semibold hidden lg:block">Welcome to</h1>
       <h1 className="text-primary text-5xl font-semibold">JobWise</h1>
       <SignUp
         routing="hash"
