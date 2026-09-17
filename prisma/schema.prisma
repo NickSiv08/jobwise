@@ -45,9 +45,12 @@ model User {
 }
 
 model Candidate {
-  id     String  @id @default(cuid())
-  bio    String?
-  skills String?
+  id              String   @id @default(cuid())
+  bio             String?
+  skills          String[]
+  headline        String?
+  yearsExperience Int?
+  languages       String[]
 
   userId String @unique
   user   User   @relation(fields: [userId], references: [id], onDelete: Cascade)
